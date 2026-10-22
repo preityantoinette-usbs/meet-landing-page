@@ -42,7 +42,10 @@ body{
     color: #8A8EAD;
     max-inline-size: 40ch;
 }
-.header-button button{
+.header img{
+    display: block;
+}
+button{
     width: 10rem;
     margin: 10px;
     padding: 15px;
@@ -52,15 +55,15 @@ body{
     font-weight: 900;
     font-size: 0.9rem;
 }
-.header-button .download{
+.download{
     background-color: #4D96A9;
 }
-.header-button .what-is-it{
+.what-is-it{
     background-color: #855FB1;
 }
 .section-divider{
     position: absolute;
-    bottom: -40px;
+    bottom: -300px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -95,6 +98,7 @@ body{
     gap: 1rem;
     min-height: 100vh;
     margin: 10rem;
+    position: relative;
 }
 
 .container-2-images{
@@ -111,6 +115,7 @@ body{
 }
 .container-2-text{
     text-align: center;
+    width: 50%;
 }
 .container-2-text h2{
     font-size: 0.8rem;
@@ -122,4 +127,38 @@ body{
     font-size: 2.8rem;
     font-weight: 900;
     margin: 0;
+}
+.container-2-text p{
+    font-size: 1.2rem;
+    color:#87879D;
+    
+}
+.section-divider-2{
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+}
+.vertical-line-2{
+    width: 1px;
+    height: 75px;
+    background: #DDDDE7;
+    border-radius: 2px;
+}
+.transition-circle-2{
+    border: 1px solid #DDDDE7;
+    color: #87879D;
+    width: 50px;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
 }
