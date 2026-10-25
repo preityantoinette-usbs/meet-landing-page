@@ -97,7 +97,7 @@ button{
     align-items: center;
     gap: 1rem;
     min-height: 100vh;
-    margin: 10rem;
+    margin-top: 5rem;
     position: relative;
 }
 
@@ -115,7 +115,7 @@ button{
 }
 .container-2-text{
     text-align: center;
-    width: 50%;
+    max-width: 50%;
 }
 .container-2-text h2{
     font-size: 0.8rem;
@@ -161,4 +161,59 @@ button{
     align-items: center;
     justify-content: center;
     margin-bottom: 5rem;
+    background-color: white;
+}
+.container-3-contents{
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 40%;
+    transform: translate(-40%, -50%);
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    width: 80%;
+}
+.container-3-text{
+    display: flex;
+    gap: 2rem;
+    color: white;
+}
+.container-3-text h2{
+    font-size: 1.2rem;
+    font-weight: 200;
+    width: 50%;
+}
+.container-3-text h1{
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin: 0;
+}
+.container-3{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.container-3 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+.container-3 .color-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(77, 150, 168, 0.9), rgba(77, 150, 168, 0.9));
+    z-index: 2;
+    pointer-events: none;
+}
+.download-2{
+    background-color: #855FB1;
 }
