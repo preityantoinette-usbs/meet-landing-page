@@ -256,7 +256,6 @@ button{
         justify-content: center;
         align-items: center;
         width: 100%;       /* Constrains container width to screen width */
-        max-width: 600px;  /* Stops them from getting gigantic on medium viewports */
     }
 
     /* 4. Allow the single images themselves to dynamically collapse */
